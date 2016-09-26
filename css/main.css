@@ -1,0 +1,45 @@
+.gris{
+	color: #afafaf;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+a:hover{
+    background-color: #d2d4dc;
+}
+.chicas{
+	padding-top: 15%;
+	padding-bottom: 1%;
+}
+.home{
+	background-image: url('../img/home.jpg');
+	background-repeat: none;
+}
+.participa{
+	margin-bottom: 16.5%;
+}
+.documental{
+	margin-top: 8%;
+}
+.yellow{
+	background-color: #fdf702;
+	margin-top: 3%;
+}
+.hackathon{
+	padding-top: 5%;
+	padding-bottom: 4%;
+}
+.formulario{
+
+}
+.footer{
+	background-color: #7bb3ff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.white{
+	color: #fff;
+}
+.laboratoria{
+	color: 	#fdfe02;
+}
+

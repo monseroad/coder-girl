@@ -2,10 +2,131 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
+	<link rel="stylesheet" href="css/main.css">
 	<title>Coder Girl</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	
+  <div class="navbar navbar-static-top">
+    <div class="container">
+          <div class="col-md-7 col-sm-7 col-xs-7">
+              <h3>Code Girls</h3>	
+          </div>
+        <div class="collapse navbar-collapse navHeaderCollapse">  
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navHeaderCollapse">
+                <ul class="list-inline nav navbar-var navbar-right">
+                    <li class="navbar-text"><a href="#" class="navbar-link gris">Inicio</a></li>
+                    <li class="navbar-text"><a href="#" class="navbar-link gris">Documental</a></li>
+                    <li class="navbar-text"><a href="#" class="navbar-link gris">Hackaton</a></li>
+                    <li class="navbar-text"><a href="#" class="navbar-link gris">Contacto</a></li>
+                </ul>        
+            </div>
+        </div>      
+    </div>
+ </div>  
+
+    <div class="container-fluid home">
+        <header class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+        	<h1 class="text-center chicas">CHICAS QUE CAMBIAN EL MUNDO</h1>
+        	<p class="text-center">¡Participa en nuestras actividades!</p>
+        	<p class="participa"><button class="btn btn-primary center-block">Inscríbete</button></p>
+        </header>	
+    </div>
+
+    <section class="container">
+    	<h2 class="text-center documental">VE NUESTRO DOCUMENTAL</h2>
+        <div class="row">
+        	<div class="col-md-6 col-sm-12 col-xs-12">
+        	    <h3 class="text-center">CODE GIRLS</h3>	
+        	    <p class="pull-left">El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias (provenientes de Estados Unidos, Brasil, India y México) que, junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicación que resuelva problemas en sus comunidades, en el marco de la competencia Technovation.</p>
+        	    <p class="pull-left">De la competencia expuesta en el documental participaron 300 equipos, de los cuales 44 llegaron a la semifinal, luego seis resultaron finalistas y finalmente el ganador recibió un premio de 10.000 dólares.</p>
+        	</div>
+        	<div class="video-container">
+        	    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
+        	    </div>
+            </div>
+    </section>
+
+    <section class="container yellow">
+    	<div class="row">
+    		<div class="col-md-6 col-sm-12 col-xs-12 hackathon">
+    		    <img src="img/hackathon.jpg" alt="hackathon" class="img-responsive">
+    		</div>
+    	    <div class="col-md-6 col-sm-12 col-xs-12 hackathon">
+    	        <h2 class="text-center">HACKATHON</h2>
+    	        <p>¡Participa en nuestra hackathon "Love is Respect"!</p> <p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10 am.</p>
+    	        <p class="participa"><button class="btn btn-primary left-block">Inscríbete</button></p>
+    	    </div>
+    	</div>    
+    </section>
+        
+    <section class="container">
+        <div class="row">
+    		<div class="col-md-6 col-sm-12 col-xs-12 hackathon">
+    		    <img src="img/made_with_code.jpg" alt="made with code" class="img-responsive">
+    		</div> 	
+    		<div class="col-md-6 col-sm-12 col-xs-12 hackathon">
+    		    <h2>CONTACTO</h2>
+    		    <div class="row">
+    		        <div class="col-md-5 col-sm-5 col-xs-5">
+    		            <h6>Code Girls</h6>
+    		            <p>795 Folsom Ave, Suite 600
+    		            San Francisco, CA 94107
+    		            <abbr title="Fono">Fono:</abbr> (123) 456-7890</p>
+    		        </div>
+    		    </div>
+                <form class="form-horizontal">
+                    <fieldset>
+                        <div class="form-group">
+                            <span class="col-md-6 col-sm-12 col-xs-12 text-center"></span>
+                            <div class="col-md-8">
+                                <input name="Nombre" type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-6 col-sm-12 col-xs-12 text-center"></span>
+                            <div class="col-md-8">
+                                <input name="email" type="text" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-6 col-sm-12 col-xs-12 text-center"></span>
+                            <div class="col-md-8">
+                                <input name="asunto" type="text" placeholder="Asunto" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-6 col-sm-12 col-xs-12 text-center"></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" name="message" placeholder="Mensaje" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+    	<div class="row">
+    	    <div class="col-md-3 col-sm-8 col-xs-8">
+            <p class="pull-right white">©2016 Code Girl. Diseñado por <span class="laboratoria">Laboratoria</span></p>
+        </div>
+    </footer>
 </body>
 </html>
